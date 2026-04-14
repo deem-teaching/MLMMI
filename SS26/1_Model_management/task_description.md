@@ -1,10 +1,14 @@
-# Exercise 1 — Simple Model Management System
+# Exercise 1 — Lightweight Model Management System
 
 In this exercise, you will build a lightweight model registry for one ML task. The goal is to implement a simple model management system.
 
 Use the [Titanic dataset](https://www.openml.org/search?type=data&sort=version&status=any&order=asc&exact_name=Titanic&id=40945) and create several dataset versions from the same original dataset by applying preprocessing steps such as handling missing values, encoding categorical features, selecting subsets of features, or using different train/test splits. The Titanic dataset contains both categorical and numerical features and includes missing values, so preprocessing is necessary.
 
 You should store trained models together with metadata, track simple lineage between related models, and select the best model under a fixed budget constraint.
+
+For inspiration, you can read the following papers:  
+https://people.eecs.berkeley.edu/~matei/papers/2016/hilda_modeldb.pdf  
+https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper18.pdf
 
 ## Expected Project Structure
 
