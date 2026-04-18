@@ -10,6 +10,8 @@ For inspiration, you can read the following papers:
 https://people.eecs.berkeley.edu/~matei/papers/2016/hilda_modeldb.pdf  
 https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper18.pdf
 
+**Special Note: Use of LLMs/Coding Agents are allowed but not recommended.**
+
 ## Expected Project Structure
 
 ```
