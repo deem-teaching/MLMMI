@@ -12,12 +12,14 @@ https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper18.pdf
 
 **Special Note: Use of LLMs/Coding Agents are allowed but not recommended.**
 
+**Language:** You may use any programming language of your choice.
+
 ## Expected Project Structure
 
 ```
 1_Model_registry_and_selection/
-├── requirements.txt
-├── solution.ipynb            # main notebook orchestrating the pipeline (e.g. calling all scripts)
+├── requirements.txt          # or project.toml, uv.lock, etc
+├── solution.ipynb            # main notebook orchestrating the pipeline (e.g. calling all scripts, only relevant for Python scripts)
 ├── data/
 │   ├── raw/                  # original dataset
 │   └── ds_v*/                # versioned datasets (train.csv, test.csv, metadata.json)
@@ -25,7 +27,7 @@ https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper18.pdf
 │   └── model_*/              # serialized model artifacts (e.g. .joblib)
 ├── registry/
 │   └── model_*.json          # one metadata file per registered model
-└── scripts/                  # reproducible Python scripts
+└── scripts/                  # reproducible scripts
 ```
 
 ## Tasks
