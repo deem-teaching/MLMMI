@@ -95,4 +95,4 @@ Each run writes one JSON file to `registry/<run_id>.json`. This should extend yo
 
 ## Deliverables
 
-Submit the filled-in project structure above: the three scripts (or equivalent), a `solution.ipynb` that runs the pipeline end-to-end and renders the comparison table, populated `registry/*.json` files for every run (from-scratch, full fine-tune, at least 3 partial-freeze configurations, and at least 1 optimized run), and the saved model checkpoints under `models/`.
+Submit the filled-in project structure above: the three scripts (or equivalent), a `solution.ipynb` that runs the pipeline end-to-end and renders the comparison table and a populated `registry/*.json` files for every run (from-scratch, full fine-tune, at least 3 partial-freeze configurations, and at least 1 optimized run).
