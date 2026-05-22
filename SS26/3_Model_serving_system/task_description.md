@@ -85,5 +85,3 @@ Add a `+preproc share` curve to each of your three Task 4 plots and write a shor
 
 - Your server code, the load generator and the registry of trained models
 - A `solution.ipynb` containing the **3 plots** (one per repeat rate, each showing mean + p95 latency vs. RPS, with one curve per server configuration: `baseline`, `+batching+cache`, `+preproc share`) and the **short analysis** for Task 5.
-
-See `reference_solution/` for an example structure.
